@@ -15,7 +15,7 @@ Granted is a command line interface (CLI) tool which simplifies access to cloud 
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | The version of Granted to install (e.g., 'latest', 'v0.36.2'). | string | latest |
+| version | The version of Granted to install (e.g., 'latest', '0.36.0'). | string | latest |
 
 
 
