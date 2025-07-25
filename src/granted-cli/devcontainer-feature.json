@@ -1,0 +1,16 @@
+{
+    "name": "Granted CLI (via GitHub Releases)",
+    "id": "granted-cli",
+    "version": "1.0.0",
+    "description": "Granted is a command line interface (CLI) tool which simplifies access to cloud roles and allows multiple cloud accounts to be opened in your web browser simultaneously.",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "latest",
+            "description": "The version of Granted to install (e.g., 'latest', 'v0.36.2')."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers-extra/features/gh-release"
+    ]
+}

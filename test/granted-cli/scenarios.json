@@ -1,0 +1,25 @@
+{
+    "pinned_version": {
+        "image": "mcr.microsoft.com/devcontainers/base:debian",
+        "features": {
+            "ghcr.io/devcontainers/features/common-utils:1": {
+                "installZsh": false,
+                "installOhMyZsh": false,
+                "upgradePackages": false,
+                "username": "testuser"
+            },
+            "granted-cli": {
+                "version": "0.36.0"
+            }
+        },
+        "remoteUser": "testuser"
+    },
+    "latest": {
+        "image": "mcr.microsoft.com/devcontainers/base:debian",
+        "features": {
+            "granted-cli": {
+                "version": "latest"
+            }
+        }
+    }
+}
