@@ -7,7 +7,7 @@
         "version": {
             "type": "string",
             "default": "latest",
-            "description": "The version of Granted to install (e.g., 'latest', 'v0.36.2')."
+            "description": "The version of Granted to install (e.g., 'latest', '0.36.0')."
         }
     },
     "installsAfter": [
